@@ -70,3 +70,7 @@ $ dev-scripts build
 └── yarn.lock
 ```
 
+## 更新记录
+
+- v1.0.2 (2017-06-20)
+  - 修复局部安装找不到 babel-preset-env 的问题

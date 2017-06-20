@@ -52,7 +52,8 @@ module.exports = Object.assign(
             options: {
               presets: [
                 [
-                  join(__dirname, '..', 'node_modules', 'babel-preset-env'),
+                  // join(__dirname, '..', 'node_modules', 'babel-preset-env'),
+                  require('babel-preset-env'),
                   {
                     loose: true,
                     modules: false
