@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      line-height: 30px;
+      padding: 10px;
+    }
+
+    li {
+      list-style: none
+    }
+
+    a {
+      color: green;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <% files.filter((file)=>/\.html$/.test(file)).forEach((file)=>{ %>
+    <li>
+      <a target="_blank" href="/<%=file%>">
+        <%=file%>
+      </a>
+    </li>
+    <% }) %>
+  </ul>
+</body>
+
+</html>
