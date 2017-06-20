@@ -1,9 +1,13 @@
 # dev-scripts
 
+## 环境准备
+
+> nodejs >= 8.0.0
+
 ## 功能
 
 - 支持 twig 模版引擎 ( 与 php twig [兼容情况](https://github.com/twigjs/twig.js/wiki/Implementation-Notes) )
-  - 集成 cdn 与 ver 2个 filter ( 如果用到 php 端也要对应实现 ) 
+  - 集成 cdn 与 ver 2个 filter ( 如果用到 php 端也要对应实现 )
 - 支持 sass
   - 开发环境生成 sourceMap
 - 支持 webpack
@@ -20,7 +24,7 @@
   - 可直接配置线上请求地址来联调
 
 - 自定义 router
-  - router.js 里配置 一般用在模拟 ajax 接口
+  - router.js 里配置 一般用在模拟 ajax 请求接口
 
 - 基于 gulp 构建
   - 构建出的 css js img 默认在  build 目录下
@@ -28,12 +32,9 @@
 
 
 ## 安装
-### 全局
 ```sh
 $ npm install -g dev-scripts
-```
-### 局部
-```sh
+# or
 $ npm install dev-scripts -D
 ```
 
