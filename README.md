@@ -29,8 +29,6 @@
 - 基于 gulp 构建
   - 构建出的 css js img 默认在  build 目录下
 
-
-
 ## 安装
 ```sh
 $ npm install -g dev-scripts
@@ -69,6 +67,10 @@ $ dev-scripts build
 │   └── index.html
 └── yarn.lock
 ```
+
+## 快速创建项目
+  - [creates](https://github.com/cjg125/creates)
+
 
 ## 更新记录
 
