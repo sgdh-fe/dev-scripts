@@ -47,21 +47,26 @@ $ dev-scripts build
 
 ```html
 .
-├── app.config.js // 配置文件
-├── data
+├── README.md
+├── config <!-- 配置文件 -->
+│   ├── app.config.js
+│   ├── router.js
+│   ├── twig.js
+│   └── webpack.config.js
+├── data  <!-- 模版数据文件 -->
 │   └── index.js
-├── router.js // 自定义 router
-├── static // 静态文件
+├── package.json
+├── static <!-- 静态文件 -->
 │   ├── img
-│   │   └── src // src 目录下的图片 build 后会被合并
+│   │   └── src
 │   ├── js
-│   │   └── index.js // js入口文件
+│   │   └── index.js
 │   └── sass
-│       ├── index.scss // css 入口文件
+│       ├── index.scss
 │       └── lib
 │           ├── public.scss
 │           └── reset.scss
-├── views // 模版引擎目录 ( twig )
+├── views <!-- 模版文件 -->
 │   ├── common
 │   │   └── layout.html
 │   └── index.html
@@ -73,6 +78,9 @@ $ dev-scripts build
 
 
 ## 更新记录
+- v1.1.1 (2017-06-22)
+  - 修复局部安装 build 的问题
+
 - v1.1.1 (2017-06-22)
   - 修复 build 在 windows 下的问题
 
