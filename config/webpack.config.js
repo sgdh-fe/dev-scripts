@@ -5,7 +5,7 @@ const { join, resolve } = require('path')
 
 let localConfig = {}
 try {
-  localConfig = require(`${process.cwd()}/webpack.config`)
+  localConfig = require(`${process.cwd()}/config/webpack.config`)
 } catch (error) {}
 
 const PATH = resolve(require('../lib/utils/config').static)

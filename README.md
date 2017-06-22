@@ -7,7 +7,7 @@
 ## 功能
 
 - 支持 twig 模版引擎 ( 与 php twig [兼容情况](https://github.com/twigjs/twig.js/wiki/Implementation-Notes) )
-  - 集成 cdn 与 ver 2个 filter ( 如果用到 php 端也要对应实现 )
+  - config/twig.js 里可配置相应 filter ( php 端也要对应实现 )
 - 支持 sass
   - 开发环境生成 sourceMap
 - 支持 webpack
@@ -20,11 +20,11 @@
   - 自动给图片添加版本号 ( 通过图片的 md5 值计算 )
 
 - 服务器端代理请求
-  - app.config.js 里 porxy 选项配置
+  - config/app.config.js 里 porxy 选项配置
   - 可直接配置线上请求地址来联调
 
 - 自定义 router
-  - router.js 里配置 一般用在模拟 ajax 请求接口
+  - config/router.js 里配置 一般用在模拟 ajax 请求接口
 
 - 基于 gulp 构建
   - 构建出的 css js img 默认在  build 目录下
@@ -73,6 +73,10 @@ $ dev-scripts build
 
 
 ## 更新记录
+- v1.1.0 (2017-06-22)
+  - 添加对 twig 的配置文件支持
+  - 修改 [creates](https://github.com/cjg125/creates) 的配置文件位置
+  - 升级依赖包
 
 - v1.0.2 (2017-06-20)
   - 修复局部安装找不到 babel-preset-env 的问题
