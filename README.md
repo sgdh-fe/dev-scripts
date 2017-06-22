@@ -73,6 +73,9 @@ $ dev-scripts build
 
 
 ## 更新记录
+- v1.1.1 (2017-06-22)
+  - 修复 build 在 windows 下的问题
+
 - v1.1.0 (2017-06-22)
   - 添加对 twig 的配置文件支持
   - 修改 [creates](https://github.com/cjg125/creates) 的配置文件位置

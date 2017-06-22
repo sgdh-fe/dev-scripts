@@ -1,6 +1,6 @@
 {
   "name": "dev-scripts",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "bin/index.js",
   "bin": {
     "dev-scripts": "bin/index.js"

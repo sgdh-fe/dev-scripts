@@ -8,7 +8,7 @@ if (cmd === 'server') {
 } else if (cmd === 'build') {
   require('./build')()
 } else {
-  console.log('help:')
-  console.log('   dev-scripts server')
-  console.log('   dev-scripts build')
+  console.log('\nhelp:\n')
+  console.log('   dev-scripts server\n')
+  console.log('   dev-scripts build\n')
 }
