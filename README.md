@@ -95,3 +95,8 @@ $ dev-scripts build
 
 - v1.0.2 (2017-06-20)
   - 修复局部安装找不到 babel-preset-env 的问题
+
+## TODO
+
+[ ] 多模版引擎支持 ( nunjucks )
+[ ] build 生成静态 html 文件
