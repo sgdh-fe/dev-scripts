@@ -98,5 +98,5 @@ $ dev-scripts build
 
 ## TODO
 
-[ ] 多模版引擎支持 ( nunjucks )
-[ ] build 生成静态 html 文件
+- [ ] 多模版引擎支持 ( nunjucks )
+- [ ] build 生成静态 html 文件
