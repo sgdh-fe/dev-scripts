@@ -96,16 +96,11 @@ module.exports = Object.assign(
 if (process.env.NODE_ENV === 'development') {
   module.exports.plugins.push(
     new UglifyJSPlugin({
-      comments: false,
-      compress: {
-        screw_ie8: false,
-        warnings: false
-      },
-      mangle: {
-        screw_ie8: false
+      uglifyOptions: {
+        ie8: true
       },
       output: {
-        screw_ie8: false
+        comments: false
       }
     })
   )

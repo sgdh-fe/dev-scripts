@@ -29,6 +29,9 @@
 - 基于 gulp 构建
   - 构建出的 css js img 默认在  build 目录下
 
+## 快速创建项目
+  - [creates](https://github.com/cjg125/creates)
+
 ## 安装
 ```sh
 $ npm install -g dev-scripts
@@ -73,10 +76,6 @@ $ dev-scripts build
 └── yarn.lock
 ```
 
-## 快速创建项目
-  - [creates](https://github.com/cjg125/creates)
-
-
 ## 更新记录
 
 - v1.1.3 (2017-06-26)
@@ -98,5 +97,11 @@ $ dev-scripts build
 
 ## TODO
 
-- [ ] 多模版引擎支持 ( nunjucks )
-- [ ] build 生成静态 html 文件
+- v1.2.0
+  - [x] 升级依赖
+  - [x] UglifyJSPlugin 插件配置修改
+  - [ ] 多模版引擎支持 ( nunjucks )
+  - [ ] build 生成静态 html 文件
+  - [ ] webpack 的模块查询路径待讨论
+  - [ ] 全局与本地配置文件结合方式重新讨论
+  - [ ] cli 提示优化
